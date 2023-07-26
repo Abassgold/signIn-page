@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: rgb(249, 250, 252);
+    box-shadow: 1px 1px 5px 5px aliceblue;
+}
+
+img {
+    width: 15px;
+    margin-right: 5px;
+}
+input{
+    outline: none;
+    padding: 1px 0;
+}
+
+.pad {
+    border: 1px solid rgb(71, 69, 69);
+    border-radius: 10rem;
+    padding: 3px;
+    font-weight: 500;
+}
+#pad {
+    border: 2px solid rgb(138, 134, 134);
+    padding: 3px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.pad1{
+    height: 1px;
+    border: 1px solid;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+small{
+    font-size: 10px;
+    font-weight: 500;
+}
